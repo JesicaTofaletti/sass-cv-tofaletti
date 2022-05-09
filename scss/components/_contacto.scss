@@ -1,0 +1,42 @@
+main{
+    .formulario__contacto{
+        .formulario__div__row{
+            background-color: #ff10bb;
+            color: $color-principal;
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+        
+            // aca tengo que hacer row
+
+
+            .formulario__div__column{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                margin-bottom: 3vh;
+                // col-lg-6 col-sm-12 mb-3
+            }
+        }
+
+        .formulario__ultima__seccion{
+            background-color: #ff10bb;
+
+            .btn {
+                background-color: black;
+                color: #d0d0d0;
+                font-family: 'Rubik';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 1rem;
+                border: 1px solid #d0d0d0;
+                padding-left: 2rem;
+                padding-right: 2rem;
+
+                &:hover{
+                    background: radial-gradient(rgb(255, 20, 212), rgb(194, 16, 161));
+                    color: #d0d0d0;
+                }
+            }
+        }
+    }
+
+}
