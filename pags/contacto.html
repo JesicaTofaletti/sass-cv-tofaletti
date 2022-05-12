@@ -24,7 +24,7 @@
   
       <link rel="icon" type="image/logo-jt" href="../img/logo-jt.svg">
       <!--HOJA DE ESTILOS-->
-      <link rel="stylesheet" href="../scss/sass.scss">
+      <link rel="stylesheet" href="../css/style.css">
     </head>
   
     <body class="d-flex flex-column min-vh-100">
@@ -86,33 +86,32 @@
         </div>
 
 
-        <form class="container formulario__contacto">
+        <form class="container formulario__nombre">
           <div class="formulario__div__row">
-            <div class="col-lg-6 col-sm-12 mb-3 formulario__div__column">
-              <label for="nombre" class="form-label">Nombre</label>
-              <input type="text" class="form-control" id="nombre" placeholder="Name">
+            <div class="formulario__div__column">
+              <label for="nombre" class="formulario__name">Nombre</label>
+              <input type="text" class="formulario__placeholder" id="nombre" placeholder="Name">
             </div>
 
-            <div class="col-lg-6 col-sm-12 mb-3">
-              <label for="apellido" class="form-label">Apellido</label>
-              <input type="text" class="form-control" id="apellido" placeholder="Last name">
+            <div class="formulario__apellido">
+              <label for="apellido" class="formulario__textape">Apellido</label>
+              <input type="text" class="formulario__placeholder" id="apellido" placeholder="Last name">
+            </div>
+
+            <div class="formulario__div__column">
+              <label for="inputEmail3" class="formulario__name">Email</label>
+              <input type="email" class="formulario__placeholder" id="inputEmail3" placeholder="yourmail@example.com">
+            </div>
+
+            <div class="formulario__apellido">
+              <label for="telephone" class="formulario__textape">Teléfono</label>
+                <input type="number" class="formulario__placeholder" id="telephone" placeholder="011 57473727">
             </div>
           </div>
-      
-          <div class="row">
-            <div class="col-lg-6 col-sm-12 mb-3 mb-3">
-              <label for="inputEmail3" class="form-label">Email</label>
-              <input type="email" class="form-control" id="inputEmail3" placeholder="yourmail@example.com">
-            </div>
+        
 
-            <div class="col-lg-6 col-sm-12 mb-3 mb-3">
-              <label for="telephone" class="form-label">Teléfono</label>
-                <input type="number" class="form-control" id="telephone" placeholder="011 57473727">
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-6 col-sm-12 mb-3 mt-2">
+          <div class="formulario__div__row">
+            <div class="formulario__div__column mb-3 mt-2">
               <select class="form-select mt-4" aria-label="Default select example">
                 <option selected>País | State</option>
                 <option value="Argentina">Argentina</option>
@@ -124,15 +123,15 @@
               </select>
             </div>
 
-            <div class="col-lg-6 col-sm-12 mb-3 mb-3">
-              <label for="formFileMultiple" class="form-label">Elegir archivos</label>
+            <div class="formulario__apellido mt-2">
+              <label for="formFileMultiple" class="formulario__textape">Elegir archivos</label>
               <input class="form-control" type="file" id="formFileMultiple" multiple>
             </div>
           </div>
 
-          <div class="form-submit mt-3 formulario__ultima__seccion">
-            <div class="mb-3">
-              <label for="mensajeconsulta" class="form-label">Consulta</label>
+          <div class="mt-3 formulario__ultima__seccion">
+            <div class="formulario__div__column mb-4">
+              <label for="mensajeconsulta" class="formulario__name">Consulta</label>
               <textarea class="form-control" id="mensajeconsulta" placeholder="Hello! Here you can write your message..." rows="3"></textarea>
             </div>
 

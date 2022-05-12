@@ -1,26 +1,50 @@
 main{
-    .formulario__contacto{
+    .formulario__nombre{
         .formulario__div__row{
-            background-color: #ff10bb;
             color: $color-principal;
             display: grid;
-            grid-template-rows: 1fr 1fr;
-        
-            // aca tengo que hacer row
-
-
+            grid-template-columns: 1fr 1fr;
+            
             .formulario__div__column{
-                display: grid;
-                grid-template-columns: 1fr 1fr;
                 margin-bottom: 3vh;
-                // col-lg-6 col-sm-12 mb-3
+                margin-right: 2vh;
+                display: flex;
+                flex-direction: column;
+                // col-lg-6 col-sm-12
+
+                .formulario__placeholder{
+                    height: $placeholder;
+                    justify-content: center;
+                    padding-left: 1rem;
+                }
+            }
+        
+            .formulario__apellido{
+                margin-bottom: 3vh;
+                margin-left: 2vh;
+                display: flex;
+                flex-direction: column;
+
+                .formulario__placeholder{
+                    height: $placeholder;
+                    justify-content: center;
+                    padding-left: 1rem;
+                }
+                
             }
         }
 
         .formulario__ultima__seccion{
-            background-color: #ff10bb;
+            margin-top: 2vh;
+            margin-bottom: 5vh;
+            display: flex;
+            flex-direction: column;
+
 
             .btn {
+                display: flex;
+                justify-content: center;
+                width: 17vh;
                 background-color: black;
                 color: #d0d0d0;
                 font-family: 'Rubik';

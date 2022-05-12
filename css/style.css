@@ -2,19 +2,38 @@
   padding: 0;
   margin: 0; }
 
-main .formulario__contacto .formulario__div__row {
-  background-color: #ff10bb;
-  color: #8177a6;
+main .formulario__nombre .formulario__div__row {
+  color: #454545;
   display: grid;
-  grid-template-rows: 1fr 1fr; }
-  main .formulario__contacto .formulario__div__row .formulario__div__column {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 3vh; }
+  grid-template-columns: 1fr 1fr; }
+  main .formulario__nombre .formulario__div__row .formulario__div__column {
+    margin-bottom: 3vh;
+    margin-right: 2vh;
+    display: flex;
+    flex-direction: column; }
+    main .formulario__nombre .formulario__div__row .formulario__div__column .formulario__placeholder {
+      height: 47px;
+      justify-content: center;
+      padding-left: 1rem; }
+  main .formulario__nombre .formulario__div__row .formulario__apellido {
+    margin-bottom: 3vh;
+    margin-left: 2vh;
+    display: flex;
+    flex-direction: column; }
+    main .formulario__nombre .formulario__div__row .formulario__apellido .formulario__placeholder {
+      height: 47px;
+      justify-content: center;
+      padding-left: 1rem; }
 
-main .formulario__contacto .formulario__ultima__seccion {
-  background-color: #ff10bb; }
-  main .formulario__contacto .formulario__ultima__seccion .btn {
+main .formulario__nombre .formulario__ultima__seccion {
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+  display: flex;
+  flex-direction: column; }
+  main .formulario__nombre .formulario__ultima__seccion .btn {
+    display: flex;
+    justify-content: center;
+    width: 17vh;
     background-color: black;
     color: #d0d0d0;
     font-family: 'Rubik';
@@ -24,7 +43,7 @@ main .formulario__contacto .formulario__ultima__seccion {
     border: 1px solid #d0d0d0;
     padding-left: 2rem;
     padding-right: 2rem; }
-    main .formulario__contacto .formulario__ultima__seccion .btn:hover {
+    main .formulario__nombre .formulario__ultima__seccion .btn:hover {
       background: radial-gradient(#ff14d4, #c210a1);
       color: #d0d0d0; }
 
