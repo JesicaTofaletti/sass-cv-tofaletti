@@ -19,3 +19,10 @@ $colores:(
     color-3: black,
     color-4: rgb(254, 246, 11),
 );
+
+// Extend
+
+%flex-center{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,5 @@
+h1{
+    font-size: map-get($tamanio-tipografia, subtitle);
+    color: map-get($colores, color-1);
+    font-family: map-get($familia-tipo, rubikfam);
+}
