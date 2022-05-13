@@ -96,5 +96,7 @@ main {
         background: radial-gradient(#ff14d4, #c210a1);
         color: #d0d0d0; } }
 
-nav {
-  background-color: #282828; }
+h1 {
+  font-size: 3rem;
+  color: #FF14D4;
+  font-family: "Rubik"; }
