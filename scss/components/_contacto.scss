@@ -1,3 +1,5 @@
+
+
 main{
     margin-top: 5vh;
     margin-bottom: 5vh;
@@ -42,7 +44,7 @@ main{
             flex-direction: column;
 
             .btn {
-                @extend %flex-center;
+                @include flex-center;
                 width: 17vh;
                 background-color: black;
                 color: #d0d0d0;
@@ -111,8 +113,7 @@ main{
     
     
                 .btn {
-                    display: flex;
-                    justify-content: center;
+                    @include flex-center;
                     width: 17vh;
                     background-color: black;
                     color: #d0d0d0;

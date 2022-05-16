@@ -21,8 +21,21 @@ $colores:(
 );
 
 // Extend
+// %flex-center{
+//     display: flex;
+//     justify-content: center;
+// };
 
-%flex-center{
+@mixin flex-center {
     display: flex;
     justify-content: center;
 }
+
+%flex-center {
+    @include flex-center()
+}
+
+.flex-center {
+    @extend %flex-center
+}
+
