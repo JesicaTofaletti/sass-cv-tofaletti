@@ -1,0 +1,25 @@
+a:hover{
+    background-color: rgb(255, 20, 212);
+    transition: all 0.9s ease;
+}
+
+.btn {
+    background-color: black;
+    color: #d0d0d0;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    border: 1px solid #d0d0d0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+button:hover{
+    background-color: rgb(255, 20, 212);
+}
+
+.btn:hover{
+    background: radial-gradient(rgb(255, 20, 212), rgb(194, 16, 161));
+    color: #d0d0d0;
+}

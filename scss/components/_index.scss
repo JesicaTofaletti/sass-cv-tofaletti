@@ -1,0 +1,36 @@
+.main__bg{
+    min-height: 90vh;
+    min-width: 100vw;
+    background-image: url("./img/bg-index-design.png");
+    background-size: cover;
+    margin: 0%;
+}
+
+h1{
+    color: rgb(255, 20, 212);
+    font-family: 'Rubik';
+    font-size: 64px;
+    padding-bottom: 2rem;
+}
+
+.titulo__index{
+    color: rgb(255, 20, 212);
+    text-align: start;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 10%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 5rem;
+}
+
+.subtitulo__index{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    color: dimgrey;
+    padding-left: 10%;
+}
