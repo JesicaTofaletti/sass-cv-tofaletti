@@ -9,9 +9,14 @@ $tamanio-tipografia:(
     paragraph: 1rem,
 );
 
-$familia-tipo:(
-    rubikfam: 'Rubik',
-
+@mixin tipografia-botones(
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    border: 1px solid #d0d0d0;
+    padding-left: 2rem;
+    padding-right: 2rem;
 );
 
 $colores:(
