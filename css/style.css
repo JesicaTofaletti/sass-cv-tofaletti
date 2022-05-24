@@ -8,72 +8,56 @@ h1 {
   font-size: 64px;
   padding-bottom: 2rem; }
 
+.flex-center {
+  display: flex;
+  justify-content: center; }
+
 @media screen and (max-width: 500px) {
-  .main__bg {
-    min-height: 100vh;
-    min-width: 100vw;
-    background-image: url("./img/Copia de Fondo marzo.jpg");
-    background-size: cover; }
-  .titulo__index {
-    color: white;
-    text-align: center;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    padding-left: none;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    font-size: 5rem; }
-  .subtitulo__index {
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    color: dimgrey;
-    padding-left: none;
-    text-align: center; }
-  .diploma__img {
-    max-width: 1vw;
-    border: none; }
-  h1 {
-    color: #ff14d4;
-    font-family: 'Rubik';
-    font-size: 48px;
-    padding-bottom: 1rem;
-    text-align: center; }
-  .main__aboutme {
-    padding-top: 9vh; }
-  .div__holasoy {
-    padding-top: 2vh; }
-  .about__meimg {
-    padding-top: 2vh;
-    padding-bottom: 5vh;
-    width: 100vw; }
-  .aboutme__adobe img {
-    width: 15vh;
-    padding-top: 5vh; }
-  .newsletter__footer {
-    padding-bottom: 2%; }
-  .newsletter__email {
-    padding: 2%;
-    width: 90vw;
-    height: 5vh;
-    margin-top: 5%;
-    margin-bottom: 5%;
+  main .formulario__nombre .formulario__div__row {
+    color: #454545;
     display: flex;
-    align-items: center; }
-  .btn__sendFooter {
-    background-color: black;
-    color: #d0d0d0;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    border: 1px solid #d0d0d0;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    width: 50%; } }
+    flex-direction: column;
+    justify-content: center;
+    grid-template-columns: none; }
+    main .formulario__nombre .formulario__div__row .formulario__div__column {
+      margin-bottom: 3vh;
+      margin-right: 0px;
+      display: flex;
+      flex-direction: column; }
+      main .formulario__nombre .formulario__div__row .formulario__div__column .formulario__placeholder {
+        height: 47px;
+        justify-content: center;
+        padding-left: 1rem; }
+    main .formulario__nombre .formulario__div__row .formulario__apellido {
+      margin-bottom: 3vh;
+      margin-left: 0px;
+      display: flex;
+      flex-direction: column; }
+      main .formulario__nombre .formulario__div__row .formulario__apellido .formulario__placeholder {
+        height: 47px;
+        justify-content: center;
+        padding-left: 1rem; }
+  main .formulario__nombre .formulario__ultima__seccion {
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: column; }
+    main .formulario__nombre .formulario__ultima__seccion .btn {
+      display: flex;
+      justify-content: center;
+      width: 17vh;
+      background-color: black;
+      color: #d0d0d0;
+      font-family: 'Rubik';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1rem;
+      border: 1px solid #d0d0d0;
+      padding-left: 2rem;
+      padding-right: 2rem; }
+      main .formulario__nombre .formulario__ultima__seccion .btn:hover {
+        background: radial-gradient(#ff14d4, #c210a1);
+        color: #d0d0d0; } }
 
 .flex-center {
   display: flex;
@@ -85,32 +69,24 @@ h1 {
   background-image: url("../../img/bg-index-design.png");
   background-size: cover;
   margin: 0%; }
-
-h1 {
-  color: #ff14d4;
-  font-family: 'Rubik';
-  font-size: 64px;
-  padding-bottom: 2rem; }
-
-.titulo__index {
-  color: #ff14d4;
-  text-align: start;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
-  padding-left: 10%;
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  font-size: 5rem; }
-
-.subtitulo__index {
-  font-family: 'Rubik';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  color: dimgrey;
-  padding-left: 10%; }
+  .main__bg h1 {
+    color: #ff14d4;
+    text-align: start;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 10%;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    font-size: 5rem; }
+  .main__bg .subtitulo__index {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    color: dimgrey;
+    padding-left: 10%; }
 
 a:hover {
   background-color: #ff14d4;
@@ -203,53 +179,6 @@ main {
   background-color: #d0d0d0;
   color: #ff14d4; }
 
-@media screen and (max-width: 500px) {
-  main .formulario__nombre .formulario__div__row {
-    color: #454545;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    grid-template-columns: none; }
-    main .formulario__nombre .formulario__div__row .formulario__div__column {
-      margin-bottom: 3vh;
-      margin-right: 0px;
-      display: flex;
-      flex-direction: column; }
-      main .formulario__nombre .formulario__div__row .formulario__div__column .formulario__placeholder {
-        height: 47px;
-        justify-content: center;
-        padding-left: 1rem; }
-    main .formulario__nombre .formulario__div__row .formulario__apellido {
-      margin-bottom: 3vh;
-      margin-left: 0px;
-      display: flex;
-      flex-direction: column; }
-      main .formulario__nombre .formulario__div__row .formulario__apellido .formulario__placeholder {
-        height: 47px;
-        justify-content: center;
-        padding-left: 1rem; }
-  main .formulario__nombre .formulario__ultima__seccion {
-    margin-top: 2vh;
-    margin-bottom: 5vh;
-    display: flex;
-    flex-direction: column; }
-    main .formulario__nombre .formulario__ultima__seccion .btn {
-      display: flex;
-      justify-content: center;
-      width: 17vh;
-      background-color: black;
-      color: #d0d0d0;
-      font-family: 'Rubik';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 1rem;
-      border: 1px solid #d0d0d0;
-      padding-left: 2rem;
-      padding-right: 2rem; }
-      main .formulario__nombre .formulario__ultima__seccion .btn:hover {
-        background: radial-gradient(#ff14d4, #c210a1);
-        color: #d0d0d0; } }
-
 .bg__empresa {
   background-color: #d0d0d0;
   color: #ff14d4;
@@ -261,7 +190,7 @@ main {
 
 h1 {
   font-size: 3rem;
-  color: #FF14D4;
+  color: #ff14d4;
   font-family: "Rubik"; }
 
 a:hover {

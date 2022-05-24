@@ -1,4 +1,14 @@
-@import './base/general';
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: rgb(255, 20, 212);
+    font-family: 'Rubik';
+    font-size: 64px;
+    padding-bottom: 2rem;
+}
 @import './base/media';
 @import './base/variables';
 @import './components/index';
