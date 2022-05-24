@@ -6,7 +6,7 @@
     margin: 0%;
 
     h1 {
-    color: rgb(255, 20, 212);
+    color: $color-1;
     text-align: start;
     padding-top: 2vh;
     padding-bottom: 2vh;
@@ -23,7 +23,7 @@
         font-style: normal;
         font-weight: 400;
         font-display: swap;
-        color: dimgrey;
+        color: $color-2;
         padding-left: 10%;
     }
 }
