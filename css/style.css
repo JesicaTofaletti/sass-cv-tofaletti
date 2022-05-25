@@ -16,54 +16,59 @@ main .formulario__nombre .formulario__div__row .formulario__div__column, main .f
   display: flex;
   flex-direction: column; }
 
-@media screen and (max-width: 500px) {
-  main .formulario__nombre .formulario__div__row {
-    color: #454545;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    grid-template-columns: none; }
-    main .formulario__nombre .formulario__div__row .formulario__div__column {
-      margin-bottom: 3vh;
-      margin-right: 0px;
+@media screen and (max-width: 400px) {
+  main .formulario__nombre {
+    display: grid;
+    grid-template-columns: 1fr; }
+    main .formulario__nombre .formulario__div__row {
+      color: #454545;
       display: flex;
-      flex-direction: column; }
-      main .formulario__nombre .formulario__div__row .formulario__div__column .formulario__placeholder {
-        height: 47px;
-        justify-content: center;
-        padding-left: 1rem; }
-    main .formulario__nombre .formulario__div__row .formulario__apellido {
-      margin-bottom: 3vh;
-      margin-left: 0px;
-      display: flex;
-      flex-direction: column; }
-      main .formulario__nombre .formulario__div__row .formulario__apellido .formulario__placeholder {
-        height: 47px;
-        justify-content: center;
-        padding-left: 1rem; }
-  main .formulario__nombre .formulario__ultima__seccion {
-    margin-top: 2vh;
-    margin-bottom: 5vh;
-    display: flex;
-    flex-direction: column; }
-    main .formulario__nombre .formulario__ultima__seccion .btn {
-      display: flex;
+      flex-direction: column;
       justify-content: center;
-      width: 17vh;
-      background-color: black;
-      color: #d0d0d0;
-      font-family: 'Rubik';
-      font-style: normal;
-      font-weight: 400;
-      font-size: 1rem;
-      border: 1px solid #d0d0d0;
-      padding-left: 2rem;
-      padding-right: 2rem; }
-      main .formulario__nombre .formulario__ultima__seccion .btn:hover {
-        background: radial-gradient(#ff14d4, #c210a1);
-        color: #d0d0d0; }
+      grid-template-columns: none; }
+      main .formulario__nombre .formulario__div__row .formulario__div__column {
+        margin-bottom: 3vh;
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column; }
+        main .formulario__nombre .formulario__div__row .formulario__div__column .formulario__placeholder {
+          height: 47px;
+          justify-content: center;
+          padding-left: 1rem; }
+      main .formulario__nombre .formulario__div__row .formulario__apellido {
+        margin-bottom: 3vh;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column; }
+        main .formulario__nombre .formulario__div__row .formulario__apellido .formulario__placeholder {
+          height: 47px;
+          justify-content: center;
+          padding-left: 1rem; }
+    main .formulario__nombre .formulario__ultima__seccion {
+      margin-top: 2vh;
+      margin-bottom: 5vh;
+      display: flex;
+      flex-direction: column; }
+      main .formulario__nombre .formulario__ultima__seccion .btn {
+        display: flex;
+        justify-content: center;
+        width: 17vh;
+        background-color: black;
+        color: #d0d0d0;
+        font-family: 'Rubik';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        border: 1px solid #d0d0d0;
+        padding-left: 2rem;
+        padding-right: 2rem; }
+        main .formulario__nombre .formulario__ultima__seccion .btn:hover {
+          background: radial-gradient(#ff14d4, #c210a1);
+          color: #d0d0d0; }
   .main-estudios img {
-    width: 200px; }
+    width: 150px;
+    display: flex;
+    justify-items: center; }
   .skills__row div {
     width: 50%;
     display: flex;

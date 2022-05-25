@@ -1,12 +1,16 @@
 @import "./variables";
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 400px){
     main{
         .formulario__nombre{
+            display: grid;
+            grid-template-columns: 1fr;
+            
             .formulario__div__row{
                 color: $color-principal;
-                @include flex-center;
+                display: flex;
                 flex-direction: column;
+                justify-content: center;
                 grid-template-columns: none;
                 
                 .formulario__div__column{
@@ -62,7 +66,9 @@
     }
     .main-estudios{
         img{
-            width: 200px;
+            width: 150px;
+            display: flex;
+            justify-items: center;
         }
     }
     .skills__row{
