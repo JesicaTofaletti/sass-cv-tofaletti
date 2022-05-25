@@ -2,6 +2,11 @@ $color-principal: #454545;
 $flex-column: row;
 $placeholder: 47px;
 
+$color-1: rgb(255, 20, 212);
+$color-2: rgb(76, 76, 76);
+$color-3: black;
+$color-4: rgb(254, 246, 11);
+
 // MAPA
 $tamanio-tipografia:(
     title: 5rem,
@@ -13,6 +18,13 @@ $familia-tipo:(
     rubikfam: 'Rubik',
 );
 
+$colores:(
+    color-1: rgb(255, 20, 212),
+    color-2: rgb(76, 76, 76),
+    color-3: black,
+    color-4: rgb(254, 246, 11),
+);
+
 @mixin tipografia-botones{
     font-family:'Rubik';
     font-style: normal;
@@ -22,23 +34,6 @@ $familia-tipo:(
     padding-left: 2rem;
     padding-right: 2rem;
 };
-
-$colores:(
-    color-1: rgb(255, 20, 212),
-    color-2: rgb(76, 76, 76),
-    color-3: black,
-    color-4: rgb(254, 246, 11),
-);
-
-$color-1: rgb(255, 20, 212);
-$color-2: rgb(76, 76, 76);
-$color-3: black;
-$color-4: rgb(254, 246, 11);
-// Extend
-// %flex-center{
-//     display: flex;
-//     justify-content: center;
-// };
 
 @mixin flex-center {
     display: flex;
@@ -53,3 +48,7 @@ $color-4: rgb(254, 246, 11);
     @extend %flex-center
 }
 
+%flex-column {
+    display: flex;
+    flex-direction: column;
+}

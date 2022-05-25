@@ -5,9 +5,8 @@
         .formulario__nombre{
             .formulario__div__row{
                 color: $color-principal;
-                display: flex;
+                @include flex-center;
                 flex-direction: column;
-                justify-content: center;
                 grid-template-columns: none;
                 
                 .formulario__div__column{
@@ -69,9 +68,8 @@
     .skills__row{
         div{
             width: 50%;
-            display: flex;
+            @include flex-center;
             align-items: center;
-            justify-content: center;
         }
     }
 }

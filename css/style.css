@@ -12,12 +12,16 @@ h1 {
   display: flex;
   justify-content: center; }
 
+main .formulario__nombre .formulario__div__row .formulario__div__column, main .formulario__nombre .formulario__div__row .formulario__apellido, main .formulario__nombre .formulario__ultima__seccion {
+  display: flex;
+  flex-direction: column; }
+
 @media screen and (max-width: 500px) {
   main .formulario__nombre .formulario__div__row {
     color: #454545;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     grid-template-columns: none; }
     main .formulario__nombre .formulario__div__row .formulario__div__column {
       margin-bottom: 3vh;
@@ -63,16 +67,24 @@ h1 {
   .skills__row div {
     width: 50%;
     display: flex;
-    align-items: center;
-    justify-content: center; } }
+    justify-content: center;
+    align-items: center; } }
 
 .flex-center {
   display: flex;
   justify-content: center; }
 
+main .formulario__nombre .formulario__div__row .formulario__div__column, main .formulario__nombre .formulario__div__row .formulario__apellido, main .formulario__nombre .formulario__ultima__seccion {
+  display: flex;
+  flex-direction: column; }
+
 .flex-center {
   display: flex;
   justify-content: center; }
+
+main .formulario__nombre .formulario__div__row .formulario__div__column, main .formulario__nombre .formulario__div__row .formulario__apellido, main .formulario__nombre .formulario__ultima__seccion {
+  display: flex;
+  flex-direction: column; }
 
 .main__bg {
   min-height: 90vh;
@@ -123,25 +135,25 @@ button:hover {
 
 .main__aboutme {
   padding-top: 5vh; }
-
-.div__holasoy {
-  padding-top: 5vh; }
-
-.about__meimg {
-  padding-top: 5vh;
-  padding-bottom: 5vh; }
-
-.aboutme__adobe {
-  padding-top: 2vh;
-  padding-bottom: 5vh; }
-
-.aboutme__adobe img {
-  width: 10vh;
-  padding-top: 5vh; }
+  .main__aboutme .div__holasoy {
+    padding-top: 5vh; }
+  .main__aboutme .about__meimg {
+    padding-top: 5vh;
+    padding-bottom: 5vh; }
+  .main__aboutme .aboutme__adobe {
+    padding-top: 2vh;
+    padding-bottom: 5vh; }
+    .main__aboutme .aboutme__adobe img {
+      width: 10vh;
+      padding-top: 5vh; }
 
 .flex-center {
   display: flex;
   justify-content: center; }
+
+main .formulario__nombre .formulario__div__row .formulario__div__column, main .formulario__nombre .formulario__div__row .formulario__apellido, main .formulario__nombre .formulario__ultima__seccion {
+  display: flex;
+  flex-direction: column; }
 
 main {
   margin-top: 5vh;
@@ -152,27 +164,21 @@ main {
     grid-template-columns: 1fr 1fr; }
     main .formulario__nombre .formulario__div__row .formulario__div__column {
       margin-bottom: 3vh;
-      margin-right: 2vh;
-      display: flex;
-      flex-direction: column; }
+      margin-right: 2vh; }
       main .formulario__nombre .formulario__div__row .formulario__div__column .formulario__placeholder {
         height: 47px;
         justify-content: center;
         padding-left: 1rem; }
     main .formulario__nombre .formulario__div__row .formulario__apellido {
       margin-bottom: 3vh;
-      margin-left: 2vh;
-      display: flex;
-      flex-direction: column; }
+      margin-left: 2vh; }
       main .formulario__nombre .formulario__div__row .formulario__apellido .formulario__placeholder {
         height: 47px;
         justify-content: center;
         padding-left: 1rem; }
   main .formulario__nombre .formulario__ultima__seccion {
     margin-top: 2vh;
-    margin-bottom: 5vh;
-    display: flex;
-    flex-direction: column; }
+    margin-bottom: 5vh; }
     main .formulario__nombre .formulario__ultima__seccion .btn {
       display: flex;
       justify-content: center;
@@ -194,18 +200,13 @@ main {
   background-color: #d0d0d0;
   color: #ff14d4; }
 
-.bg__empresa {
-  background-color: #d0d0d0;
-  color: #ff14d4;
-  margin-bottom: 2rem; }
-
-.bg__contact {
-  background-color: #d0d0d0;
-  color: #ff14d4; }
-
 .flex-center {
   display: flex;
   justify-content: center; }
+
+main .formulario__nombre .formulario__div__row .formulario__div__column, main .formulario__nombre .formulario__div__row .formulario__apellido, main .formulario__nombre .formulario__ultima__seccion {
+  display: flex;
+  flex-direction: column; }
 
 h1 {
   font-size: 3rem;
@@ -243,7 +244,7 @@ footer .newsletter__email {
   height: 3vh; }
 
 footer .btn__sendFooter {
-  background-color: #ff14d4;
+  background-color: black;
   color: #d0d0d0;
   font-family: 'Rubik';
   font-style: normal;
