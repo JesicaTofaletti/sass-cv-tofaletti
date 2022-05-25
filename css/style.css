@@ -46,7 +46,7 @@ h1 {
       display: flex;
       justify-content: center;
       width: 17vh;
-      background-color: map;
+      background-color: black;
       color: #d0d0d0;
       font-family: 'Rubik';
       font-style: normal;
@@ -60,7 +60,7 @@ h1 {
         color: #d0d0d0; }
   .main-estudios img {
     width: 200px; }
-  .main__adobe .skills__row .div {
+  .skills__row div {
     width: 50%;
     display: flex;
     align-items: center;
