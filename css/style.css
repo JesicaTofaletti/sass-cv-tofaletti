@@ -125,13 +125,12 @@ a:hover {
   border: 1px solid #d0d0d0;
   padding-left: 2rem;
   padding-right: 2rem; }
+  .btn:hover {
+    background: radial-gradient(#ff14d4, #c210a1);
+    color: #d0d0d0; }
 
 button:hover {
   background-color: #ff14d4; }
-
-.btn:hover {
-  background: radial-gradient(#ff14d4, #c210a1);
-  color: #d0d0d0; }
 
 .main__aboutme {
   padding-top: 5vh; }
@@ -213,6 +212,11 @@ h1 {
   color: #ff14d4;
   font-family: "Rubik"; }
 
+.bg__empresa {
+  background-color: #4c4c4c;
+  color: #ff14d4;
+  margin-bottom: 2rem; }
+
 .flex-center {
   display: flex;
   justify-content: center; }
@@ -222,8 +226,8 @@ main .formulario__nombre .formulario__div__row .formulario__div__column, main .f
   flex-direction: column; }
 
 .bg__empresa {
-  background-color: #4c4c4c;
-  color: #ff14d4;
+  background-color: #b8b8b8;
+  color: #4c4c4c;
   margin-bottom: 2rem; }
 
 a:hover {
@@ -240,13 +244,12 @@ a:hover {
   border: 1px solid #d0d0d0;
   padding-left: 2rem;
   padding-right: 2rem; }
+  .btn:hover {
+    background: radial-gradient(#ff14d4, #c210a1);
+    color: #d0d0d0; }
 
 button:hover {
   background-color: #ff14d4; }
-
-.btn:hover {
-  background: radial-gradient(#ff14d4, #c210a1);
-  color: #d0d0d0; }
 
 footer .newsletter__footer {
   padding-bottom: 2%; }
