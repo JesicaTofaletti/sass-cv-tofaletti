@@ -1,3 +1,5 @@
+@import "../base/variables";
+
 h1{
     font-size: map-get($tamanio-tipografia, subtitle);
     color: map-get($colores, color-1);

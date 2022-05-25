@@ -57,7 +57,18 @@ h1 {
       padding-right: 2rem; }
       main .formulario__nombre .formulario__ultima__seccion .btn:hover {
         background: radial-gradient(#ff14d4, #c210a1);
-        color: #d0d0d0; } }
+        color: #d0d0d0; }
+  .main-estudios img {
+    width: 200px; }
+  .main__adobe .skills__row .div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; } }
+
+.flex-center {
+  display: flex;
+  justify-content: center; }
 
 .flex-center {
   display: flex;
@@ -85,7 +96,7 @@ h1 {
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    color: dimgrey;
+    color: #4c4c4c;
     padding-left: 10%; }
 
 a:hover {
@@ -127,6 +138,10 @@ button:hover {
 .aboutme__adobe img {
   width: 10vh;
   padding-top: 5vh; }
+
+.flex-center {
+  display: flex;
+  justify-content: center; }
 
 main {
   margin-top: 5vh;
@@ -188,6 +203,10 @@ main {
   background-color: #d0d0d0;
   color: #ff14d4; }
 
+.flex-center {
+  display: flex;
+  justify-content: center; }
+
 h1 {
   font-size: 3rem;
   color: #ff14d4;
@@ -215,16 +234,16 @@ button:hover {
   background: radial-gradient(#ff14d4, #c210a1);
   color: #d0d0d0; }
 
-.newsletter__footer {
+footer .newsletter__footer {
   padding-bottom: 2%; }
 
-.newsletter__email {
+footer .newsletter__email {
   padding: 1%;
   width: 15vw;
   height: 3vh; }
 
-.btn__sendFooter {
-  background-color: black;
+footer .btn__sendFooter {
+  background-color: #ff14d4;
   color: #d0d0d0;
   font-family: 'Rubik';
   font-style: normal;

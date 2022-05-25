@@ -9,15 +9,19 @@ $tamanio-tipografia:(
     paragraph: 1rem,
 );
 
-@mixin tipografia-botones(
-    font-family: 'Rubik';
+$familia-tipo:(
+    rubikfam: 'Rubik',
+);
+
+@mixin tipografia-botones{
+    font-family:'Rubik';
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
     border: 1px solid #d0d0d0;
     padding-left: 2rem;
     padding-right: 2rem;
-);
+};
 
 $colores:(
     color-1: rgb(255, 20, 212),
@@ -26,6 +30,8 @@ $colores:(
     color-4: rgb(254, 246, 11),
 );
 
+$color-1: rgb(255, 20, 212);
+$color-2: rgb(76, 76, 76);
 // Extend
 // %flex-center{
 //     display: flex;
