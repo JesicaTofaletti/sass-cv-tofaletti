@@ -213,6 +213,19 @@ h1 {
   color: #ff14d4;
   font-family: "Rubik"; }
 
+.flex-center {
+  display: flex;
+  justify-content: center; }
+
+main .formulario__nombre .formulario__div__row .formulario__div__column, main .formulario__nombre .formulario__div__row .formulario__apellido, main .formulario__nombre .formulario__ultima__seccion {
+  display: flex;
+  flex-direction: column; }
+
+.bg__empresa {
+  background-color: #4c4c4c;
+  color: #ff14d4;
+  margin-bottom: 2rem; }
+
 a:hover {
   background-color: #ff14d4;
   transition: all 0.9s ease; }
