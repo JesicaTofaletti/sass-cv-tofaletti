@@ -95,6 +95,9 @@ main .formulario__nombre .formulario__div__row .formulario__div__column, main .f
 main {
   margin-top: 5vh;
   margin-bottom: 5vh; }
+  main .bg__contact {
+    background-color: #b8b8b8;
+    color: #4c4c4c; }
   main .formulario__nombre .formulario__div__row {
     color: #454545;
     display: grid;
@@ -132,10 +135,6 @@ main {
       main .formulario__nombre .formulario__ultima__seccion .btn:hover {
         background: radial-gradient(#ff14d4, #c210a1);
         color: #d0d0d0; }
-
-.bg__contact {
-  background-color: #d0d0d0;
-  color: #ff14d4; }
 
 .flex-center {
   display: flex;

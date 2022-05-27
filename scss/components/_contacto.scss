@@ -2,6 +2,12 @@
 main{
     margin-top: 5vh;
     margin-bottom: 5vh;
+
+    .bg__contact{
+        background-color: $color-6; 
+        color: $color-2;
+    }
+
     .formulario__nombre{
         .formulario__div__row{
             color: $color-principal;
@@ -54,10 +60,5 @@ main{
         }
     }
 
-}
-
-.bg__contact{
-    background-color: #d0d0d0; 
-    color: $color-1;
 }
 
