@@ -4,7 +4,7 @@
     .main__bg{
         min-height: 100vh;
         min-width: 100vw;
-        background-image: url("../../img/Copia\ de\ Fondo\ marzo.jpg");
+        background-image: url("../img/Copia\ de\ Fondo\ marzo.jpg");
         background-size: cover;
 
         h1{
@@ -115,7 +115,7 @@
             grid-template-columns: 1fr;
             
             .formulario__div__row{
-                color: $color-principal;
+                color: $color-1;
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
